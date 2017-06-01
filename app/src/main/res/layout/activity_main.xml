@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    tools:context="com.axiheyhey.android.apps.MainActivity">
+
+    <com.axiheyhey.android.celllayout.CellLayout
+        android:id="@+id/cell_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="10dp"
+        app:cellColumnCount="3"
+        app:cellDividerColor="@color/red"
+        app:cellDividerSize="1dp"
+        app:showCellHorizontalDividers="start|middle|end"
+        app:showCellVerticalDividers="start|middle|end">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="@string/label_test" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="@string/label_test" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="@string/label_test" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="@string/label_test" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="@string/label_test" />
+
+    </com.axiheyhey.android.celllayout.CellLayout>
+
+</FrameLayout>

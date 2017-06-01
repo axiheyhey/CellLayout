@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CellLayout">
+        <attr name="cellColumnCount" format="integer" />
+        <attr name="showCellDividers">
+            <flag name="none" value="0" />
+            <flag name="start" value="1" />
+            <flag name="middle" value="2" />
+            <flag name="end" value="4" />
+        </attr>
+        <attr name="cellDividerSize" format="dimension" />
+        <attr name="cellDividerColor" format="color" />
+        <attr name="showCellHorizontalDividers">
+            <flag name="none" value="0" />
+            <flag name="start" value="1" />
+            <flag name="middle" value="2" />
+            <flag name="end" value="4" />
+        </attr>
+        <attr name="cellHorizontalDividerWidth" format="dimension" />
+        <attr name="cellHorizontalDividerColor" format="color" />
+        <attr name="showCellVerticalDividers">
+            <flag name="none" value="0" />
+            <flag name="start" value="1" />
+            <flag name="middle" value="2" />
+            <flag name="end" value="4" />
+        </attr>
+        <attr name="cellVerticalDividerHeight" format="dimension" />
+        <attr name="cellVerticalDividerColor" format="color" />
+    </declare-styleable>
+
+</resources>
